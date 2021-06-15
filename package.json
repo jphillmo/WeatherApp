@@ -1,0 +1,32 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "This is a sample weather app that uses the OpenWeatherMap API.  It is purely for demonstration/testing purposes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphillmo/WeatherApp.git"
+  },
+  "keywords": [
+    "weather",
+    "javascript"
+  ],
+  "author": "Justin Phillmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphillmo/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/jphillmo/WeatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}

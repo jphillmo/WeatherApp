@@ -1,0 +1,21 @@
+doctype html
+//
+  Author: Justin Phillmon
+  Description: This is a sample weather app that is influenced by a Youtube video by Dev Ed.
+  It uses the OpenWeatherMap API instead of the DarkSky API mentioned in the video.
+  The video can be accessed from the following URL: https://www.youtube.com/watch?v=wPElVpR1rwA
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='css/style.css')
+  title Sample WeatherApp
+.location
+  h1.location-timezone Timezone
+  p Icon
+.temperature
+  .degree-section
+    h2.temperature-degree
+    span &deg;F
+  .temperature-description It&apos;s friggin cold
+script(src='js/weather-data.js')
